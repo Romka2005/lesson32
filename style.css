@@ -38,8 +38,14 @@
     background: rgb(2,0,36);
     background: linear-gradient(180deg, rgb(1, 0, 29) 0%, rgb(6, 6, 82) 35%, rgb(0, 110, 255) 100%);
     font-size: 12px;
-    padding: 15px;
-    width: 100%;
+    padding: 0;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    /* padding: 15px;
+    width: 530px;
+    height: auto; */
     transition: 1s;
 }
 .information h1{
@@ -59,9 +65,16 @@
     background: rgb(2,0,36);
     background: linear-gradient(180deg, rgb(1, 0, 29) 0%, rgb(6, 6, 82) 35%, rgb(0, 110, 255) 100%);
     font-size: 12px;
+    
+    overflow: hidden;
     padding: 15px;
-    width: 100%;
+    width: 530px;
     transition: 2s;
+}
+.registration{
+    width: 0;
+    height: 0;
+    opacity: 0;
 }
 .registration h1, .sign h1{
     text-align: center;
